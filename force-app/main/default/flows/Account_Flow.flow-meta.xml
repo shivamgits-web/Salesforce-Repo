@@ -85,7 +85,7 @@
     </recordUpdates>
     <screens>
         <name>Fill_Account_Record_Information</name>
-        <label>Fill Account Record Information</label>
+        <label>Fill Account Record Informations</label>
         <locationX>176</locationX>
         <locationY>242</locationY>
         <allowBack>true</allowBack>
