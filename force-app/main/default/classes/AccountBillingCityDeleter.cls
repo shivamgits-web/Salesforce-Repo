@@ -15,7 +15,7 @@ public class AccountBillingCityDeleter {
             update acc;
           }
     }
-    
+    // Update the Close Date
     public static void updateCloseDate(String oppId){
         Opportunity opp = [Select Id, closeDate from Opportunity where Id =: oppId];
         if(opp.closeDate != NUll){
