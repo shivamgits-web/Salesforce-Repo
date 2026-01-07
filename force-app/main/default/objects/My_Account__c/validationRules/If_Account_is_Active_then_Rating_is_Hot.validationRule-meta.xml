@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Account_is_Active_then_Rating_is_Hot</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($Permission.CP_Custom_Sale_Profile,isActive__c=true,NOT(ISPICKVAL(Rating__c,&apos;Hot&apos;)))</errorConditionFormula>
+    <errorMessage>When Account is Active, Rating should be Hot</errorMessage>
+</ValidationRule>

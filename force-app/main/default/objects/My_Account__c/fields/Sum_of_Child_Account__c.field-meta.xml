@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sum_of_Child_Account__c</fullName>
+    <label>Sum of Child Account</label>
+    <summarizedField>My_Child_Account__c.Child_Amount__c</summarizedField>
+    <summaryForeignKey>My_Child_Account__c.My_Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

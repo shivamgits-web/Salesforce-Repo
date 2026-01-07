@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Identity_Proof__c</fullName>
+    <label>Identity Proof</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+            <value>
+                <fullName>Adhaar</fullName>
+                <default>false</default>
+                <label>Adhaar</label>
+            </value>
+            <value>
+                <fullName>Voter Id</fullName>
+                <default>false</default>
+                <label>Voter Id</label>
+            </value>
+            <value>
+                <fullName>Registration Certificate</fullName>
+                <default>false</default>
+                <label>Registration Certificate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
