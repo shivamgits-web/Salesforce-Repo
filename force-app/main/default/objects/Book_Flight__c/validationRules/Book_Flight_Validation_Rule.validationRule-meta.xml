@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Flight_Validation_Rule</fullName>
+    <active>false</active>
+    <errorConditionFormula>Passenger__r.Any_ongoing_warrant__c = true</errorConditionFormula>
+    <errorMessage>You cannot book flight for passenger having ongoing warrant</errorMessage>
+</ValidationRule>

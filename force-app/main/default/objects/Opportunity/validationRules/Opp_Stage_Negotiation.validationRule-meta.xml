@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Stage_Negotiation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (Amount &lt; 10000,Amount&gt;100000, ISPICKVAL(StageName,&apos;Negotiation/Review&apos;))</errorConditionFormula>
+    <errorMessage>Amount should not be less than 10000 and greater than 100000</errorMessage>
+</ValidationRule>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <label>State</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pune</fullName>
+                <default>false</default>
+                <label>Pune</label>
+            </value>
+            <value>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+                <label>Mumbai</label>
+            </value>
+            <value>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+                <label>Jaipur</label>
+            </value>
+            <value>
+                <fullName>Aurgabad</fullName>
+                <default>false</default>
+                <label>Aurgabad</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
