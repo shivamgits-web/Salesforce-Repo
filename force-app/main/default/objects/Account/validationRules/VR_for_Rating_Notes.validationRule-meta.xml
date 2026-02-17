@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>VR_for_Rating_Notes</fullName>
-    <active>true</active>
+    <active>false</active>
     <errorConditionFormula>NOT(ISNEW()) &amp;&amp; ISCHANGED(Rating) &amp;&amp; NOT(ISCHANGED(Rating_Notes__c))</errorConditionFormula>
     <errorMessage>Please change the Value of the Rating Notes</errorMessage>
 </ValidationRule>
