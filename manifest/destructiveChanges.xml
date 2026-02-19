@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>updateOppCon</members>
-		<name>ApexTrigger</name>
+		<members>Book_Flight_Screen_Flow</members>
+		<members>Capture_Lead_Information</members>
+		<members>CreateOPPWithPrioHigh</members>
+		<members>Create_Account_Contact_Opp</members>
+		<name>Flow</name>
 	</types>
 	<version>65.0</version>
 </Package>
