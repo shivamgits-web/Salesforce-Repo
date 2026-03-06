@@ -5,6 +5,7 @@
 		<members>Capture_Lead_Information</members>
 		<members>CreateOPPWithPrioHigh</members>
 		<members>Create_Account_Contact_Opp</members>
+		<members>Create_Lead</members>
 		<name>Flow</name>
 	</types>
 	<version>65.0</version>
